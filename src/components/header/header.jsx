@@ -2,7 +2,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <div>
+    <div className="header">
       <header>This is the header component</header>
     </div>
   );
