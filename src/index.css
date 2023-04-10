@@ -16,33 +16,12 @@ body {
   justify-content: space-between;
 }
 
-body > * {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
 
-body > * > * {
-  width: 80%;
-  border: thin solid black;
-}
 
 @media only screen and (max-width: 767px) {
   /* styles for phone screens */
-
-  body > * {
-    width: 100%;
-    border: thin solid black;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* styles for tablets */
-
-  body > * {
-    width: 100%;
-    border: thin solid black;
-  }
 }
