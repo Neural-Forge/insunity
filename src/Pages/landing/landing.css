@@ -1,4 +1,18 @@
 .landing {
-  min-height: 80vh;
-  background-color: slategray;
+  height: 80vh;
+  background-color: white;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.landing > main {
+  border: thin solid black;
+  width: 90%;
+  height: 100%;
 }
